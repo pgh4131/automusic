@@ -1,0 +1,9 @@
+{
+  "generator_version": "original-multitrack-pairs-v2",
+  "method_version": "foreground-pitch-notes-v2",
+  "method_sha256": "ff7cfa06afd285b2d30cd08437ddb7c3c5472748eb08c60d2df1cff5b505e26b",
+  "generator_sha256": "68ed5be791371af55198b29b5798e16fe7dca917f7d0b4c14834ff7f9296fb83",
+  "melody_threshold": 0.181236,
+  "rhythm_threshold": 0.3732495,
+  "threshold_selection": "Maximum development F1, then precision, then smaller threshold; validation/test never used"
+}
