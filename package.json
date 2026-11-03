@@ -1,0 +1,12 @@
+{
+  "name": "automusic",
+  "private": true,
+  "workspaces": ["apps/web"],
+  "scripts": {
+    "dev": "python3 scripts/dev.py",
+    "dev:web": "npm run dev --workspace apps/web",
+    "build": "npm run build --workspace apps/web",
+    "typecheck": "npm run typecheck --workspace apps/web"
+  },
+  "engines": {"node": ">=20.9.0"}
+}

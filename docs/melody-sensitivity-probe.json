@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-02",
+  "algorithm_version": "pooled-contrast-dtw-v3",
+  "purpose": "Controlled melody-sensitivity diagnostic; no legal labels or population accuracy",
+  "lead_amplitude": 0.04,
+  "accompaniment_amplitude_per_note": 0.12,
+  "cases": [
+    {"case": "same_melody_same_accompaniment", "candidate_found": true, "distance": 0.001047},
+    {"case": "different_melody_same_accompaniment", "candidate_found": true, "distance": 0.121637},
+    {"case": "same_melody_different_accompaniment", "candidate_found": false, "distance": null}
+  ]
+}
